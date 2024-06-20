@@ -73,7 +73,7 @@ body {
 
 .control {
   width: 40vw;
-  height: 40vw;
+  height: auto;
   border-radius: 25px;
   background: #e0e0e0;
   box-shadow: inset 25px 25px 50px #bebebe, inset -25px -25px 50px #ffffff;
@@ -127,7 +127,7 @@ body {
 @media screen and (max-width: 992px) {
   .board, .control {
     width: 75vw;
-    height: 75vw;
+    height: auto;
   }
 
   .screen {
